@@ -1,0 +1,92 @@
+:root {
+  --black: #333;
+  --gray: #470ce8;
+  --white: #fff;
+  --orange: #ff7000;
+  --yellow: #fcfcfb;
+  --blue: #0000ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--black);
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; */
+  font-family: "M PLUS 2", sans-serif, "Oxygen Mono", monospace;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: var(--yellow);
+}
+
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Oxygen+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Work+Sans:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black);
+  font-family: "Oxygen Mono", monospace;
+}
+
+a {
+  font-family: "Bona Nova", serif;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0.9rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* section {
+  display: block;
+  max-width: 100px;
+} */
+
+textarea {
+  width: 400px;
+  height: 400px;
+}
+
+.new {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 10px solid red;
+}
+
+section {
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+aside {
+  margin-left: 80em;
+  margin-bottom: 80em;
+  margin-left: 50em;
+  margin-top: -40em;
+}
+
+label {
+  padding: 3rem;
+}
